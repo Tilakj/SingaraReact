@@ -5,7 +5,7 @@ const Home = () => {
     const [newValue, setNewValue] = useState(""); 
     const [editValue, setEditValue] = useState(""); 
     const [editIndex, setEditIndex] = useState(-1); 
-    const baseUrl = "https://localhost:44341"
+    const baseUrl = "https://singaraapi.com/singaraapi"
     useEffect(() => {
         fetchData();
     }, []);
